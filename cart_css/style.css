@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    text-decoration: none;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1beach.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-weight: normal;
+    color: #333;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 25px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cart-page{
+    margin: 0;
+}
+
+table{
+    overflow: hidden;
+    width: 70%;
+    transform: translate(-7%,23%);
+    border-collapse: collapse;
+}
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #ef4478;
+    font-weight: normal;
+}
+
+td{
+    padding: 5px 5px;
+}
+
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: #ef4478;
+    font-size: 12px;
+}
+
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.total-price{
+    display: flex;
+    justify-content: center;
+}
+
+.total-price table{
+    border-top: 3px solid #ef4478;
+    max-width: 392px;
+    transform: translate(75%,30%);
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+
+.addbtn{
+    width: 260px;
+    font-size: 18px;
+    color: white;
+    background: #ef4478;
+    display: block;
+    float: right;
+    padding: 5px;
+    text-align: center;
+    margin: 8px 0;
+    transition: 0.4s opacity;
+    transform: translate(-70%,140%);
+}
+
+.addbtn:hover{
+    opacity: 0.7;
+}
+
+.footer-wrapper{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.single-footer{
+    width: 33%;
+    float: left;
+    text-align: left;
+    color: #fff;
+}
+
+.single-footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.single-footer ul a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+.single-footer p{
+    width: 70%;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    line-height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
